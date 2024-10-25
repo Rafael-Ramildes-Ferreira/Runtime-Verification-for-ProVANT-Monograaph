@@ -1,0 +1,17 @@
+*/*.aux 
+main.bcf
+main.log
+main.blg
+main.loq
+main.fdb_latexmk
+main.lot
+main.fls
+main.run.xml
+main.idx
+main.synctex.gz
+main.ilg
+main.toc
+main.aux
+main.ind
+main.bbl
+main.lof
