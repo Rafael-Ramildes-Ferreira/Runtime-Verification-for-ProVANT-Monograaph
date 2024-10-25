@@ -1,0 +1,662 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{bauer_runtime_2011}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=7cffa0000b9a3a8681a56b2bf1c9de36}{%
+           family={Bauer},
+           familyi={B\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f12d8abcc6426b67ab27bb515704aec6}{%
+           family={Leucker},
+           familyi={L\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0bdeeec43787159d02e7574829c43c3d}{%
+           family={Schallhart},
+           familyi={S\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{3c6f31f4cc3e6dfe6e8c117aa90bc77b}
+      \strng{fullhash}{3c6f31f4cc3e6dfe6e8c117aa90bc77b}
+      \strng{fullhashraw}{3c6f31f4cc3e6dfe6e8c117aa90bc77b}
+      \strng{bibnamehash}{3c6f31f4cc3e6dfe6e8c117aa90bc77b}
+      \strng{authorbibnamehash}{3c6f31f4cc3e6dfe6e8c117aa90bc77b}
+      \strng{authornamehash}{3c6f31f4cc3e6dfe6e8c117aa90bc77b}
+      \strng{authorfullhash}{3c6f31f4cc3e6dfe6e8c117aa90bc77b}
+      \strng{authorfullhashraw}{3c6f31f4cc3e6dfe6e8c117aa90bc77b}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1049-331X, 1557-7392}
+      \field{journaltitle}{ACM Transactions on Software Engineering and Methodology}
+      \field{month}{9}
+      \field{number}{4}
+      \field{title}{Runtime {Verification} for {LTL} and {TLTL}}
+      \field{urlday}{25}
+      \field{urlmonth}{9}
+      \field{urlyear}{2024}
+      \field{volume}{20}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 64}
+      \range{pages}{64}
+      \verb{doi}
+      \verb 10.1145/2000799.2000800
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/2000799.2000800
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/2000799.2000800
+      \endverb
+    \endentry
+    \entry{benica_design_2024}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=98cd3c0ccb4dd4403b0df8483a81c672}{%
+           family={Benicá},
+           familyi={B\bibinitperiod},
+           given={Daniel\bibnamedelimb Zorzal\bibnamedelima Lourenço},
+           giveni={D\bibinitperiod\bibinitdelim Z\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {UFMG}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Belo Horizonte, Brazil}%
+      }
+      \strng{namehash}{98cd3c0ccb4dd4403b0df8483a81c672}
+      \strng{fullhash}{98cd3c0ccb4dd4403b0df8483a81c672}
+      \strng{fullhashraw}{98cd3c0ccb4dd4403b0df8483a81c672}
+      \strng{bibnamehash}{98cd3c0ccb4dd4403b0df8483a81c672}
+      \strng{authorbibnamehash}{98cd3c0ccb4dd4403b0df8483a81c672}
+      \strng{authornamehash}{98cd3c0ccb4dd4403b0df8483a81c672}
+      \strng{authorfullhash}{98cd3c0ccb4dd4403b0df8483a81c672}
+      \strng{authorfullhashraw}{98cd3c0ccb4dd4403b0df8483a81c672}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{bookpagination}{sheet}
+      \field{month}{8}
+      \field{title}{{DESIGN} {AND} {IMPLEMENTATION} {OF} {A} {MONITORING}, {FAILOVER}, {AND} {AUTOMATIC} {RECOVERY} {SYSTEM} {FOR} {THE} {EMBEDDED} {SYSTEM} {OF} {A} {UAV}}
+      \field{type}{phdthesis}
+      \field{year}{2024}
+    \endentry
+    \entry{broering_runtime_2023}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b81defda272b70fedfa1ce9f11337d38}{%
+           family={Broering},
+           familyi={B\bibinitperiod},
+           given={Elton\bibnamedelima Ferreira},
+           giveni={E\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidade Federal de Santa Catarina}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \strng{namehash}{b81defda272b70fedfa1ce9f11337d38}
+      \strng{fullhash}{b81defda272b70fedfa1ce9f11337d38}
+      \strng{fullhashraw}{b81defda272b70fedfa1ce9f11337d38}
+      \strng{bibnamehash}{b81defda272b70fedfa1ce9f11337d38}
+      \strng{authorbibnamehash}{b81defda272b70fedfa1ce9f11337d38}
+      \strng{authornamehash}{b81defda272b70fedfa1ce9f11337d38}
+      \strng{authorfullhash}{b81defda272b70fedfa1ce9f11337d38}
+      \strng{authorfullhashraw}{b81defda272b70fedfa1ce9f11337d38}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{bookpagination}{sheet}
+      \field{title}{Runtime monitoring library for the {FreeRTOS}}
+      \field{type}{phdthesis}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://tede.ufsc.br/teses/PEAS0428-D.pdf
+      \endverb
+      \verb{url}
+      \verb https://tede.ufsc.br/teses/PEAS0428-D.pdf
+      \endverb
+      \keyw{Lido}
+    \endentry
+    \entry{falcone_taxonomy_2021}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=21340baed277e5f47e7887fb87bf4e37}{%
+           family={Falcone},
+           familyi={F\bibinitperiod},
+           given={Yliès},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d18a256d2c069d31874aa19ea8725d3a}{%
+           family={Krstić},
+           familyi={K\bibinitperiod},
+           given={Srđan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=daad3f9438807920ae7ca5d4be1067aa}{%
+           family={Reger},
+           familyi={R\bibinitperiod},
+           given={Giles},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=799180e2caa9d597de34826bea68c0cf}{%
+           family={Traytel},
+           familyi={T\bibinitperiod},
+           given={Dmitriy},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{52de9334a22c7fd747b6359d5d29675e}
+      \strng{fullhash}{0eb74b661879d8649df1936f89d65d8e}
+      \strng{fullhashraw}{0eb74b661879d8649df1936f89d65d8e}
+      \strng{bibnamehash}{0eb74b661879d8649df1936f89d65d8e}
+      \strng{authorbibnamehash}{0eb74b661879d8649df1936f89d65d8e}
+      \strng{authornamehash}{52de9334a22c7fd747b6359d5d29675e}
+      \strng{authorfullhash}{0eb74b661879d8649df1936f89d65d8e}
+      \strng{authorfullhashraw}{0eb74b661879d8649df1936f89d65d8e}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1433-2787}
+      \field{journaltitle}{International Journal on Software Tools for Technology Transfer}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{A taxonomy for classifying runtime verification tools}
+      \field{urlday}{27}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{volume}{23}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{255\bibrangedash 284}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.1007/s10009-021-00609-z
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s10009-021-00609-z
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s10009-021-00609-z
+      \endverb
+      \keyw{Classification,Mindmap,Runtime verification,Taxonomy,Tool}
+    \endentry
+    \entry{feiler_model-based_2013}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6eba03fede5a7fb12fdde6fd8a80f0eb}{%
+           family={Feiler},
+           familyi={F\bibinitperiod},
+           given={Peter\bibnamedelima H.},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7e9a19015c4e534ffaef7614cd9ef5ba}{%
+           family={Gluch},
+           familyi={G\bibinitperiod},
+           given={David\bibnamedelima P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Upper Saddle River, NJ}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley}%
+      }
+      \strng{namehash}{7c4b1edf0a7de24251b590534a719995}
+      \strng{fullhash}{7c4b1edf0a7de24251b590534a719995}
+      \strng{fullhashraw}{7c4b1edf0a7de24251b590534a719995}
+      \strng{bibnamehash}{7c4b1edf0a7de24251b590534a719995}
+      \strng{authorbibnamehash}{7c4b1edf0a7de24251b590534a719995}
+      \strng{authornamehash}{7c4b1edf0a7de24251b590534a719995}
+      \strng{authorfullhash}{7c4b1edf0a7de24251b590534a719995}
+      \strng{authorfullhashraw}{7c4b1edf0a7de24251b590534a719995}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{9780321888945}
+      \field{series}{The {SEI} series in software engineering}
+      \field{shorttitle}{Model-based engineering with {AADL}}
+      \field{title}{Model-based engineering with {AADL}: an introduction to the {SAE} {Architecture} {Analysis} \& {Design} {Language}}
+      \field{year}{2013}
+      \keyw{Architecture Analysis and Design Language,Computer programs,Computer-aided engineering,Data processing,Engineering design}
+    \endentry
+    \entry{kupferman_model_2001}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=eec0f9cf435f8515187fe1a11aa2cd51}{%
+           family={Kupferman},
+           familyi={K\bibinitperiod},
+           given={Orna},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a4cf237a06b02ad7e7601b14b4d005be}{%
+           family={Vardi},
+           familyi={V\bibinitperiod},
+           given={Moshe\bibnamedelima Y.},
+           giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{1e9fd8b6ebc1dedea05ecbf72ed2d5a6}
+      \strng{fullhash}{1e9fd8b6ebc1dedea05ecbf72ed2d5a6}
+      \strng{fullhashraw}{1e9fd8b6ebc1dedea05ecbf72ed2d5a6}
+      \strng{bibnamehash}{1e9fd8b6ebc1dedea05ecbf72ed2d5a6}
+      \strng{authorbibnamehash}{1e9fd8b6ebc1dedea05ecbf72ed2d5a6}
+      \strng{authornamehash}{1e9fd8b6ebc1dedea05ecbf72ed2d5a6}
+      \strng{authorfullhash}{1e9fd8b6ebc1dedea05ecbf72ed2d5a6}
+      \strng{authorfullhashraw}{1e9fd8b6ebc1dedea05ecbf72ed2d5a6}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1572-8102}
+      \field{journaltitle}{Formal Methods in System Design}
+      \field{month}{11}
+      \field{number}{3}
+      \field{title}{Model {Checking} of {Safety} {Properties}}
+      \field{urlday}{27}
+      \field{urlmonth}{9}
+      \field{urlyear}{2024}
+      \field{volume}{19}
+      \field{year}{2001}
+      \field{urldateera}{ce}
+      \field{pages}{291\bibrangedash 314}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1023/A:1011254632723
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1023/A:1011254632723
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1023/A:1011254632723
+      \endverb
+      \keyw{automata,model checking,safety properties}
+    \endentry
+    \entry{lara_design_2019}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=31ce4470102d1b522b3fd4f5570ebaec}{%
+           family={Lara},
+           familyi={L\bibinitperiod},
+           given={Arthur\bibnamedelima Viana},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {UFMG}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \strng{namehash}{31ce4470102d1b522b3fd4f5570ebaec}
+      \strng{fullhash}{31ce4470102d1b522b3fd4f5570ebaec}
+      \strng{fullhashraw}{31ce4470102d1b522b3fd4f5570ebaec}
+      \strng{bibnamehash}{31ce4470102d1b522b3fd4f5570ebaec}
+      \strng{authorbibnamehash}{31ce4470102d1b522b3fd4f5570ebaec}
+      \strng{authornamehash}{31ce4470102d1b522b3fd4f5570ebaec}
+      \strng{authorfullhash}{31ce4470102d1b522b3fd4f5570ebaec}
+      \strng{authorfullhashraw}{31ce4470102d1b522b3fd4f5570ebaec}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{bookpagination}{sheet}
+      \field{month}{12}
+      \field{title}{Design of an embedded system architecture for a safety-critical system}
+      \field{type}{phdthesis}
+      \field{urlday}{30}
+      \field{urlmonth}{9}
+      \field{urlyear}{2024}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://repositorio.ufmg.br/handle/1843/76458
+      \endverb
+      \verb{url}
+      \verb https://repositorio.ufmg.br/handle/1843/76458
+      \endverb
+    \endentry
+    \entry{merchan_design_2021}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2b31cc7e097f5467e33b10ee25f4f2da}{%
+           family={Merchán},
+           familyi={M\bibinitperiod},
+           given={Antonio\bibnamedelima Albarrán},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidad de Sevilla}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Sevilla}%
+      }
+      \strng{namehash}{2b31cc7e097f5467e33b10ee25f4f2da}
+      \strng{fullhash}{2b31cc7e097f5467e33b10ee25f4f2da}
+      \strng{fullhashraw}{2b31cc7e097f5467e33b10ee25f4f2da}
+      \strng{bibnamehash}{2b31cc7e097f5467e33b10ee25f4f2da}
+      \strng{authorbibnamehash}{2b31cc7e097f5467e33b10ee25f4f2da}
+      \strng{authornamehash}{2b31cc7e097f5467e33b10ee25f4f2da}
+      \strng{authorfullhash}{2b31cc7e097f5467e33b10ee25f4f2da}
+      \strng{authorfullhashraw}{2b31cc7e097f5467e33b10ee25f4f2da}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{bookpagination}{sheet}
+      \field{title}{Design of the {General} {Architecture} for the {Systems} {Integration}, {Functional} {Tests}, and {Flight} {Tests} {Campaigns} for a {Tilt}-{Rotor} {UAV} {Prototype}: {Project} {EMERGENTIA}- ProVant}
+      \field{type}{phdthesis}
+      \field{year}{2021}
+    \endentry
+    \entry{reinbacher_runtime_2014}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=04496c97830daceeee954530b8d9c5aa}{%
+           family={Reinbacher},
+           familyi={R\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d36aa41464a694766530083dba18b775}{%
+           family={Függer},
+           familyi={F\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b1901f7c69075eb9d48d703f5a975e67}{%
+           family={Brauer},
+           familyi={B\bibinitperiod},
+           given={Jörg},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{35dc13d459c236b5ff02b4662955d5a1}
+      \strng{fullhash}{35dc13d459c236b5ff02b4662955d5a1}
+      \strng{fullhashraw}{35dc13d459c236b5ff02b4662955d5a1}
+      \strng{bibnamehash}{35dc13d459c236b5ff02b4662955d5a1}
+      \strng{authorbibnamehash}{35dc13d459c236b5ff02b4662955d5a1}
+      \strng{authornamehash}{35dc13d459c236b5ff02b4662955d5a1}
+      \strng{authorfullhash}{35dc13d459c236b5ff02b4662955d5a1}
+      \strng{authorfullhashraw}{35dc13d459c236b5ff02b4662955d5a1}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1572-8102}
+      \field{journaltitle}{Formal Methods in System Design}
+      \field{month}{6}
+      \field{number}{3}
+      \field{title}{Runtime verification of embedded real-time systems}
+      \field{urlday}{25}
+      \field{urlmonth}{9}
+      \field{urlyear}{2024}
+      \field{volume}{44}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{203\bibrangedash 239}
+      \range{pages}{37}
+      \verb{doi}
+      \verb 10.1007/s10703-013-0199-z
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s10703-013-0199-z
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s10703-013-0199-z
+      \endverb
+      \keyw{Embedded real-time systems,Online monitoring,Past-time logics,Runtime verification}
+    \endentry
+    \entry{rozier_r2u2_nodate}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a7a6780a04b21b9ed36919c85679173b}{%
+           family={Rozier},
+           familyi={R\bibinitperiod},
+           given={Kristin\bibnamedelima Yvonne},
+           giveni={K\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd3b2c4c8d5c54b694205265a0e43f8b}{%
+           family={Schumann},
+           familyi={S\bibinitperiod},
+           given={Johann},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b39d1e48eb5c6d2ab4099d6832c8ca28}
+      \strng{fullhash}{b39d1e48eb5c6d2ab4099d6832c8ca28}
+      \strng{fullhashraw}{b39d1e48eb5c6d2ab4099d6832c8ca28}
+      \strng{bibnamehash}{b39d1e48eb5c6d2ab4099d6832c8ca28}
+      \strng{authorbibnamehash}{b39d1e48eb5c6d2ab4099d6832c8ca28}
+      \strng{authornamehash}{b39d1e48eb5c6d2ab4099d6832c8ca28}
+      \strng{authorfullhash}{b39d1e48eb5c6d2ab4099d6832c8ca28}
+      \strng{authorfullhashraw}{b39d1e48eb5c6d2ab4099d6832c8ca28}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{shorttitle}{{R2U2}}
+      \field{title}{{R2U2}: {Tool} {Overview}}
+      \field{urlday}{9}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{138\bibrangedash 118}
+      \range{pages}{-19}
+      \verb{doi}
+      \verb 10.29007/5pch
+      \endverb
+      \verb{urlraw}
+      \verb https://easychair.org/publications/paper/Vncw
+      \endverb
+      \verb{url}
+      \verb https://easychair.org/publications/paper/Vncw
+      \endverb
+      \keyw{Lido}
+    \endentry
+    \entry{sanchez_survey_2019}{article}{}{}
+      \name{author}{16}{}{%
+        {{un=0,uniquepart=base,hash=b96571c3d53269eeccb72ca4e722fb33}{%
+           family={Sánchez},
+           familyi={S\bibinitperiod},
+           given={César},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a025b24003e7b4c3aeb2be974a7fb913}{%
+           family={Schneider},
+           familyi={S\bibinitperiod},
+           given={Gerardo},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9aceb6b10ccb6b74d169a2127c3f068a}{%
+           family={Ahrendt},
+           familyi={A\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=74708e55d9eea33250d8700bf6ba6a69}{%
+           family={Bartocci},
+           familyi={B\bibinitperiod},
+           given={Ezio},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc08d74d69b4382abc776c553633e273}{%
+           family={Bianculli},
+           familyi={B\bibinitperiod},
+           given={Domenico},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7f59cdae4b2323cd486c5905e4144ba0}{%
+           family={Colombo},
+           familyi={C\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=21340baed277e5f47e7887fb87bf4e37}{%
+           family={Falcone},
+           familyi={F\bibinitperiod},
+           given={Yliès},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3f4fe18ddd88a340594d79091dc27268}{%
+           family={Francalanza},
+           familyi={F\bibinitperiod},
+           given={Adrian},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d18a256d2c069d31874aa19ea8725d3a}{%
+           family={Krstić},
+           familyi={K\bibinitperiod},
+           given={Srđan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=09dde8c208893056cffca40a14976e5b}{%
+           family={Lourenço},
+           familyi={L\bibinitperiod},
+           given={Joa̋o\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6a3d495e7fe8be7c290f4d4cbad2e84f}{%
+           family={Nickovic},
+           familyi={N\bibinitperiod},
+           given={Dejan},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0a460577b3ea10f13367c2bc6696f6b5}{%
+           family={Pace},
+           familyi={P\bibinitperiod},
+           given={Gordon\bibnamedelima J.},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=00951bdbd5ca26a57bc00136e394f4b7}{%
+           family={Rufino},
+           familyi={R\bibinitperiod},
+           given={Jose},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d40140b9e92d81036f8b95651db78a8b}{%
+           family={Signoles},
+           familyi={S\bibinitperiod},
+           given={Julien},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=799180e2caa9d597de34826bea68c0cf}{%
+           family={Traytel},
+           familyi={T\bibinitperiod},
+           given={Dmitriy},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a901d218113a66522286bdee7ae08e9c}{%
+           family={Weiss},
+           familyi={W\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{79ace23af2c066aa5a575b025b5d04a8}
+      \strng{fullhash}{cbe0447b81254d298cb5a0064793baf0}
+      \strng{fullhashraw}{cbe0447b81254d298cb5a0064793baf0}
+      \strng{bibnamehash}{79ace23af2c066aa5a575b025b5d04a8}
+      \strng{authorbibnamehash}{79ace23af2c066aa5a575b025b5d04a8}
+      \strng{authornamehash}{79ace23af2c066aa5a575b025b5d04a8}
+      \strng{authorfullhash}{cbe0447b81254d298cb5a0064793baf0}
+      \strng{authorfullhashraw}{cbe0447b81254d298cb5a0064793baf0}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0925-9856, 1572-8102}
+      \field{journaltitle}{Formal Methods in System Design}
+      \field{month}{11}
+      \field{number}{3}
+      \field{title}{A survey of challenges for runtime verification from advanced application domains (beyond software)}
+      \field{urlday}{27}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{volume}{54}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{279\bibrangedash 335}
+      \range{pages}{57}
+      \verb{doi}
+      \verb 10.1007/s10703-019-00337-w
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/s10703-019-00337-w
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/s10703-019-00337-w
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

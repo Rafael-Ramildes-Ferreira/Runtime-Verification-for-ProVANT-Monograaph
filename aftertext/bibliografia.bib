@@ -1,0 +1,544 @@
+
+@book{feiler_model-based_2013,
+	address = {Upper Saddle River, NJ},
+	series = {The {SEI} series in software engineering},
+	title = {Model-based engineering with {AADL}: an introduction to the {SAE} {Architecture} {Analysis} \& {Design} {Language}},
+	isbn = {9780321888945},
+	shorttitle = {Model-based engineering with {AADL}},
+	publisher = {Addison-Wesley},
+	author = {Feiler, Peter H. and Gluch, David P.},
+	year = {2013},
+	keywords = {Architecture Analysis and Design Language, Computer programs, Computer-aided engineering, Data processing, Engineering design},
+}
+
+@article{ferier_model-generation_2001,
+	series = {{SMC}'99, {First} {International} {Workshop} on {Symbolic} {Model} {Checking} (associated to {FLoC}'99, the 1999 {Federated} {Logic} {Conference})},
+	title = {Model-{Generation} of a {Fictitious} {Clock} {Real}-{Time} {Logic} {Using} {Sharing} {Trees}},
+	volume = {23},
+	issn = {1571-0661},
+	url = {https://www.sciencedirect.com/science/article/pii/S1571066104806728},
+	doi = {10.1016/S1571-0661(04)80672-8},
+	abstract = {We present first the logic mtl, a real-time temporal logic that is at the heart of the real-time specification language Albert. Since this logic is undecidable, we approximate it (using the theory of Abstract Interpretation) by its fictitious clock counterpart, MTLfc. We then present a symbolic tableau-based model generation decision procedure in ECLFC, which is theoretically optimal. In practice however, we see that the introduction of integer-valued prophecy variables will make it more efficient. From these variables, we reconstruct by reverting the process a logic that we call ExpSpace, which can be decided in PSpace, and has the same expressivity as MTLfc. Theory thus shows that memory space is the critical factor. However, the classical compaction of memory space by BDDs is not ideal here, since our integer variables would need to be encoded by booleans. Therefore, we use Sharing Trees instead, a compact data structure that can accommodate arbitrary data types. Preliminary results on this implementation are reported.},
+	number = {2},
+	urldate = {2024-10-05},
+	journal = {Electronic Notes in Theoretical Computer Science},
+	author = {Ferier, Laurent and Raskin, Jean-François and Schobbens, Pierre-Yves},
+	month = dec,
+	year = {2001},
+	pages = {108--126},
+}
+
+@misc{noauthor_software_2024,
+	type = {Report},
+	title = {Software {Documentation}: {ProVANT} - {Emergentia} {UAV}},
+	shorttitle = {Software {Documentation} {VANT4}.0},
+	number = {Version 1.0},
+	year = {2024},
+}
+
+@techreport{macro_relatorio_2022,
+	title = {Relatório de {Atividades} - {Embedded} {Electronics} - {CNPq}},
+	url = {https://drive.google.com/drive/u/1/folders/1qRJdyLuqasCyezoM-GdVjkl2Q1S_zLU5},
+	language = {pt/br},
+	number = {Embedded Electronics–2022/v.1.1},
+	institution = {MACRO - UFMG},
+	author = {{MACRO}},
+	month = sep,
+	year = {2022},
+	pages = {18},
+}
+
+@phdthesis{lara_design_2019,
+	title = {Design of an embedded system architecture for a safety-critical system},
+	copyright = {Acesso Aberto},
+	url = {https://repositorio.ufmg.br/handle/1843/76458},
+	abstract = {Os sistemas de segurança crítica consistem em dispositivos que devem 
+funcionar sem falhas, caso contrário, poderão resultar em mortes, danos materiais 
+significativos ou danos ao meio ambiente. Veículos Aéreos Não Tripulados (VANTs) 
+são exemplos de tais sistemas e seu subsistema mais crítico é o sistema de controle de voo. Tendo em vista a sua implementação, existe uma demanda por uma 
+arquitetura embarcada capaz de executar algoritmos de controle de alto custo 
+computacional. Assim, esta dissertação propõem uma arquitetura que utiliza uma 
+plataforma de desenvolvimento composta por uma GPU de propósito geral ao mesmo tempo buscando garantir a dependabilidade e o atendimento a requisitos de tempo real necessários para a sua operação. Inicialmente, os requisitos da arquitetura foram coletados a partir de um estudo sobre normas de segurança de hardware e software para aviação comercial, conjuntamente com a realização de entrevistas com pesquisadores envolvidos no projeto de um VANT. A partir dos requisitos obtidos, uma arquitetura de hardware de dois níveis foi definida composta por um hardware de alto desempenho e um hardware de baixo desempenho, cuja especificação foi guiada segundo os requisitos de comunicação com a instrumentação. O hardware de baixo desempenho utiliza o sistema operacional FreeRTOS e o hardware de alto desempenho, o Ubuntu 18.04. Além disso, tendo em vista o objetivo de agilizar o desenvolvimento, utilizou-se o framework de aplicações robóticas ROS 2 na plataforma de alto desempenho. Com o objetivo de aumentar a confiabilidade da arquitetura, três estratégias foram adotadas: i) implementação de uma lei de controle simples no hardware de baixo desempenho caso haja falha do hardware de alto desempenho; ii) implementação da estratégia de tolerância a falhas denominada "hotstandby" na camada de baixo nível, eliminando um ponto singular de falha; e iii) a utilização de bits redundantes para aumentar a confiabilidade de comunicação entre o hardware de baixo desempenho e o hardware de alto desempenho. Por fim, realizamos uma simulação usando injeção de falhas em um ambiente de simulação via Hardware-in-the-loop para analizar: i) funcionamento correto do sistema de controle de voo sem falhas de hardware; ii) comportamento do sistema de controle de voo perante a falhas do hardware de alto desempenho; e iii) comportamento do sistema de controle de voo perante a falhas do hardware de baixo desempenho.},
+	language = {eng},
+	urldate = {2024-09-30},
+	school = {UFMG},
+	author = {Lara, Arthur Viana},
+	month = dec,
+	year = {2019},
+}
+
+@phdthesis{cardoso_robust_2021,
+	title = {Robust control framework in the weighted {Sobolev} space},
+	copyright = {Acesso Restrito},
+	url = {https://repositorio.ufmg.br/handle/1843/44464},
+	abstract = {This Ph.D. thesis proposes new formulations of the H2 and H∞ controllers in the 
+weighted Sobolev spaces. The novel approaches, here called W2 and W∞, are developed 
+taking into account the weighted Sobolev norm of the cost variable, aiming to achieve an 
+improved transient performance with a faster disturbance attenuation. 
+Initially, the nonlinear W2 and W∞ control problems are formulated for closed-loop 
+autonomous nonlinear systems, and the control problems are developed via dynamicprogramming, resulting in complex Hamilton-Jacobi (HJ) equations to be solved. Due to 
+the difficulty of solving analytically these HJ equations, the Successive Galerkin Approximation Algorithm is extended to the W2 and W∞ controllers, and used to approximate 
+solutions. Numerical experiments are performed with a Two-wheeled Self-balanced vehicle, and a comparative analysis with the classic H∞ controller is presented. The results 
+demonstrate that the controllers resulting from the weighted Sobolev approach achieve a 
+better transient performance with a faster disturbance attenuation. 
+This doctoral thesis also proposes new formulations of the nonlinear H2 and H∞ optimal control approaches in the weighted Sobolev spaces, in order to handle two classes of 
+underactuated mechanical systems: the class of reduced underactuated mechanical systems, with the objective of achieving trajectory tracking for a reduced number of Degrees 
+Of Freedom (DOF), called controlled DOF; and the class of underactuated mechanical 
+systems with input coupling, with the objective of driving the controlled DOF along a 
+desired trajectory while stabilizing the remaining ones. For these systems, the optimal 
+nonlinear W2 and W∞ control problems are formulated via dynamic-programming, and 
+particular solutions are presented for the resulting HJ equations with the corresponding stability analysis. In addition, the concepts of Wm,p,σ-gain and Wm,p,σ-stability are 
+established and applied to the particular case studies. It is shown that, for the particular class of underactuated mechanical systems, whose control inputs and disturbances 
+vector span the same space in the vector space of generalized forces, the W2 and W∞ controllers become equivalent. The efficacy of the proposed W2 and W∞ control strategies for 
+mechanical systems are demonstrated via numerical experiments conducted with a fully 
+actuated manipulator, a Two-wheeled Self-balanced vehicle, and a Quadrotor unmanned 
+aerial vehicle (UAV). It is verified that these controllers provide a better transient perfor- 
+mance with a faster response against external disturbances, in comparison with a more 
+traditional nonlinear H∞ controller, in addition to be of simpler design. 
+This thesis also formulates the linear W∞ controller in the weighted Sobolev space 
+for linear time-invariant systems. The design of state and output feedback controllers 
+is addressed, and a new approach in which the dynamic behavior of the disturbances 
+is taken into consideration in the control design stage by means of a disturbance model 
+is introduced. Pole placement constraints are also developed, allowing the synthesis of 
+linear W∞ controllers with the closed-loop poles allocated in a predefined region of the 
+complex plane. Numerical experiments are performed with a simple linear system, a Twowheeled Self-balanced vehicle, and a Quadrotor UAV, which demonstrate that the state 
+and output feedback linear W∞ controllers achieve a better transient performance with a 
+faster disturbance attenuation in comparison with a linear H∞ controller. 
+Lastly, the W∞ controller is employed in the case study of convertible Tilt-rotor UAVs. 
+A detailed modeling of the nonlinear multi-body dynamics of the Tilt-rotor UAV is conducted using the Euler-Lagrange formalism, and the nonconservative forces and torques 
+generated by the propellers, servomotors, fuselage, wings, tail surfaces, and aerodynamic 
+interference are computed and mapped to the vector of generalized forces. State and 
+output feedback linear W∞ controllers are synthesized to solve the trajectory tracking 
+problem of the convertible Tilt-rotor UAV in the helicopter flight mode, being the Von 
+Kármán wind turbulence model used to emulate the environment wind and considered 
+as disturbance model in the linear control design. Besides, a nonlinear W∞ controller is 
+designed to solve the full flight envelope trajectory tracking problem of the convertible 
+Tilt-rotor UAV. To design the nonlinear controller, the approach proposed for underactuated mechanical systems with input coupling, previously mentioned, is extended, the 
+mechanical system is partitioned with respect to stabilized, regulated, and controlled 
+DOF, aiming to achieve trajectory tracking of the controller DOF, and set references to 
+the regulated DOF, while stabilizing the remaining DOF. The nonlinear controller is implemented taking into account a control allocation scheme, which is proposed to handle 
+the time-varying rank of the convertible Tilt-rotor UAV input coupling matrix, taking into 
+account the magnitude and orientation of the relative wind-speed to properly map the 
+generalized inputs to the control signals. Numerical experiments are conducted in a high 
+fidelity simulator, they demonstrate that the proposed W∞ controllers achieve trajectory 
+tracking in the helicopter flight mode, regarding the linear W∞ controllers, and trajectory 
+tracking throughout the full flight envelope, regarding the nonlinear W∞ controller, while 
+attenuating effects of external disturbances and wind gusts.},
+	language = {eng},
+	urldate = {2024-09-30},
+	author = {Cardoso, Daniel Neri},
+	month = jun,
+	year = {2021},
+}
+
+@phdthesis{merchan_design_2021,
+	address = {Sevilla},
+	title = {Design of the {General} {Architecture} for the {Systems} {Integration}, {Functional} {Tests}, and {Flight} {Tests} {Campaigns} for a {Tilt}-{Rotor} {UAV} {Prototype}: {Project} {EMERGENTIA}-
+ProVant},
+	language = {en},
+	school = {Universidad de Sevilla},
+	author = {Merchán, Antonio Albarrán},
+	year = {2021},
+}
+
+@phdthesis{benica_design_2024,
+	address = {Belo Horizonte, Brazil},
+	title = {{DESIGN} {AND} {IMPLEMENTATION} {OF} {A} {MONITORING}, {FAILOVER}, {AND} {AUTOMATIC} {RECOVERY} {SYSTEM} {FOR} {THE} {EMBEDDED} {SYSTEM} {OF} {A} {UAV}},
+	abstract = {This monograph details the design and implementation of a monitoring, redun-
+dancy, and automatic recovery system for the embedded systems of the ProVANT
+
+Emergentia tilt-rotor Unmanned Aerial Vehicle (UAV). The main objective of this
+
+project was to enhance the reliability and operational resilience of the UAV by devel-
+oping a system capable of detecting failures in real-time and performing autonomous
+
+recovery.
+The adopted methodology included a detailed analysis of potential failures in the
+ProVANT Emergentia tilt-rotor UAV systems, identifying critical points that could
+compromise its operation. Based on this analysis, recovery strategies were developed
+
+to minimize the impact of potential failures. Furthermore, the project integrated mon-
+itoring techniques, combining hardware and software solutions to create a resilient and
+
+reliable system.
+
+The key components implemented in the system include redundancy of the elec-
+tronic systems, heartbeat signals for continuous verification of component status, watch-
+dog timers for detecting system freezes, network monitoring protocols to ensure com-
+munication integrity, and an exception notification system to handle critical failures.
+
+All of these components were coordinated through a state machine specifically designed
+to manage state transitions and ensure operational continuity.
+The implementation phase was tested in a simulated environment, where various
+
+failure scenarios were reproduced. The results demonstrated that the system was ca-
+pable of efficiently detecting, responding to, and mitigating different types of failures,
+
+ensuring the continuous and safe operation of the ProVANT Emergentia tilt-rotor UAV.},
+	language = {en},
+	school = {UFMG},
+	author = {Benicá, Daniel Zorzal Lourenço},
+	month = aug,
+	year = {2024},
+}
+
+@article{alur_real-time_1993,
+	title = {Real-{Time} {Logics}: {Complexity} and {Expressiveness}},
+	volume = {104},
+	issn = {0890-5401},
+	shorttitle = {Real-{Time} {Logics}},
+	url = {https://www.sciencedirect.com/science/article/pii/S0890540183710254},
+	doi = {10.1006/inco.1993.1025},
+	abstract = {The theory of the natural numbers with linear order and monadic predicates underlies propositional linear temporal logic. To study temporal logics that are suitable for reasoning about real-time systems, we combine this classical theory of infinite state sequences with a theory of discrete time, via a monotonic function that maps every state to its time. The resulting theory of timed state sequences is shown to be decidable, albeit nonelementary, and its expressive power is characterized by ω-regular sets. Several more expressive variants are proved to be highly undecidable. This framework allows us to classify a wide variety of real-time logics according to their complexity and expressiveness. Indeed, it follows that most formalisms proposed in the literature cannot be decided. We are, however, able to identify two elementary real-time temporal logics as expressively complete fragments of the theory of timed state sequences, and we present tableau-based decision procedures for checking validity. Consequently, these two formalisms are well-suited for the specification and verification of real-time systems.},
+	number = {1},
+	urldate = {2024-09-30},
+	journal = {Information and Computation},
+	author = {Alur, R. and Henzinger, T. A.},
+	month = may,
+	year = {1993},
+	pages = {35--77},
+}
+
+@article{kupferman_model_2001,
+	title = {Model {Checking} of {Safety} {Properties}},
+	volume = {19},
+	issn = {1572-8102},
+	url = {https://doi.org/10.1023/A:1011254632723},
+	doi = {10.1023/A:1011254632723},
+	abstract = {Of special interest in formal verification are safety properties, which assert that the system always stays within some allowed region. Proof rules for the verification of safety properties have been developed in the proof-based approach to verification, making verification of safety properties simpler than verification of general properties. In this paper we consider model checking of safety properties. A computation that violates a general linear property reaches a bad cycle, which witnesses the violation of the property. Accordingly, current methods and tools for model checking of linear properties are based on a search for bad cycles. A symbolic implementation of such a search involves the calculation of a nested fixed-point expression over the system's state space, and is often infeasible. Every computation that violates a safety property has a finite prefix along which the property is violated. We use this fact in order to base model checking of safety properties on a search for finite bad prefixes. Such a search can be performed using a simple forward or backward symbolic reachability check. A naive methodology that is based on such a search involves a construction of an automaton (or a tableau) that is doubly exponential in the property. We present an analysis of safety properties that enables us to prevent the doubly-exponential blow up and to use the same automaton used for model checking of general properties, replacing the search for bad cycles by a search for bad prefixes.},
+	language = {en},
+	number = {3},
+	urldate = {2024-09-27},
+	journal = {Formal Methods in System Design},
+	author = {Kupferman, Orna and Vardi, Moshe Y.},
+	month = nov,
+	year = {2001},
+	keywords = {automata, model checking, safety properties},
+	pages = {291--314},
+}
+
+@article{bauer_runtime_2011,
+	title = {Runtime {Verification} for {LTL} and {TLTL}},
+	volume = {20},
+	issn = {1049-331X, 1557-7392},
+	url = {https://dl.acm.org/doi/10.1145/2000799.2000800},
+	doi = {10.1145/2000799.2000800},
+	abstract = {This article studies runtime verification of properties expressed either in lineartime temporal logic (LTL) or timed lineartime temporal logic (TLTL). It classifies runtime verification in identifying its distinguishing features to model checking and testing, respectively. It introduces a three-valued semantics (with truth values 
+              true, false, inconclusive 
+              ) as an adequate interpretation as to whether a partial observation of a running system meets an LTL or TLTL property. 
+             
+             
+              For LTL, a conceptually simple monitor generation procedure is given, which is 
+              optimal 
+              in two respects: First, the size of the generated deterministic monitor is 
+              minimal 
+              , and, second, the monitor identifies a continuously monitored trace as either satisfying or falsifying a property 
+              as early as possible 
+              . The feasibility of the developed methodology is demontrated using a collection of real-world temporal logic specifications. Moreover, the presented approach is related to the properties monitorable in general and is compared to existing concepts in the literature. It is shown that the set of 
+              monitorable properties 
+              does not only encompass the 
+              safety 
+              and 
+              cosafety 
+              properties but is strictly larger. 
+             
+            For TLTL, the same road map is followed by first defining a three-valued semantics. The corresponding construction of a timed monitor is more involved, yet, as shown, possible.},
+	language = {en},
+	number = {4},
+	urldate = {2024-09-25},
+	journal = {ACM Transactions on Software Engineering and Methodology},
+	author = {Bauer, Andreas and Leucker, Martin and Schallhart, Christian},
+	month = sep,
+	year = {2011},
+	pages = {1--64},
+}
+
+@article{reinbacher_runtime_2014,
+	title = {Runtime verification of embedded real-time systems},
+	volume = {44},
+	issn = {1572-8102},
+	url = {https://doi.org/10.1007/s10703-013-0199-z},
+	doi = {10.1007/s10703-013-0199-z},
+	abstract = {We present a runtime verification framework that allows on-line monitoring of past-time Metric Temporal Logic (ptMTL) specifications in a discrete time setting. We design observer algorithms for the time-bounded modalities of ptMTL, which take advantage of the highly parallel nature of hardware designs. The algorithms can be translated into efficient hardware blocks, which are designed for reconfigurability, thus, facilitate applications of the framework in both a prototyping and a post-deployment phase of embedded real-time systems. We provide formal correctness proofs for all presented observer algorithms and analyze their time and space complexity. For example, for the most general operator considered, the time-bounded Since operator, we obtain a time complexity that is doubly logarithmic both in the point in time the operator is executed and the operator’s time bounds. This result is promising with respect to a self-contained, non-interfering monitoring approach that evaluates real-time specifications in parallel to the system-under-test. We implement our framework on a Field Programmable Gate Array platform and use extensive simulation and logic synthesis runs to assess the benefits of the approach in terms of resource usage and operating frequency.},
+	language = {en},
+	number = {3},
+	urldate = {2024-09-25},
+	journal = {Formal Methods in System Design},
+	author = {Reinbacher, Thomas and Függer, Matthias and Brauer, Jörg},
+	month = jun,
+	year = {2014},
+	keywords = {Embedded real-time systems, Online monitoring, Past-time logics, Runtime verification},
+	pages = {203--239},
+}
+
+@article{leucker_brief_2009,
+	title = {A brief account of runtime verification},
+	volume = {78},
+	issn = {15678326},
+	url = {https://linkinghub.elsevier.com/retrieve/pii/S1567832608000775},
+	doi = {10.1016/j.jlap.2008.08.004},
+	language = {en},
+	number = {5},
+	urldate = {2024-09-25},
+	journal = {The Journal of Logic and Algebraic Programming},
+	author = {Leucker, Martin and Schallhart, Christian},
+	month = may,
+	year = {2009},
+	pages = {293--303},
+}
+
+@incollection{falcone_tutorial_2013,
+	title = {A {Tutorial} on {Runtime} {Verification}},
+	url = {https://ebooks.iospress.nl/doi/10.3233/978-1-61499-207-3-141},
+	urldate = {2024-09-25},
+	booktitle = {Engineering {Dependable} {Software} {Systems}},
+	publisher = {IOS Press},
+	author = {Falcone, Yli\&\#232 and {s} and Havelund, Klaus and Reger, Giles},
+	year = {2013},
+	doi = {10.3233/978-1-61499-207-3-141},
+	pages = {141--175},
+}
+
+@article{de_matos_pedro_runtime_2018,
+	title = {Runtime verification of autopilot systems using a fragment of {MTL}- \$\$\{{\textbackslash}int \}\$\$ ∫},
+	volume = {20},
+	issn = {1433-2779, 1433-2787},
+	url = {http://link.springer.com/10.1007/s10009-017-0470-5},
+	doi = {10.1007/s10009-017-0470-5},
+	language = {en},
+	number = {4},
+	urldate = {2024-09-25},
+	journal = {International Journal on Software Tools for Technology Transfer},
+	author = {De Matos Pedro, André and Pinto, Jorge Sousa and Pereira, David and Pinho, Luís Miguel},
+	month = aug,
+	year = {2018},
+	pages = {379--395},
+}
+
+@inproceedings{reinbacher_temporal-logic_2014,
+	address = {Berlin, Heidelberg},
+	title = {Temporal-{Logic} {Based} {Runtime} {Observer} {Pairs} for {System} {Health} {Management} of {Real}-{Time} {Systems}},
+	isbn = {9783642548628},
+	doi = {10.1007/978-3-642-54862-8_24},
+	abstract = {We propose a real-time, Realizable, Responsive, Unobtrusive Unit (rt-R2U2) to meet the emerging needs for System Health Management (SHM) of new safety-critical embedded systems like automated vehicles, Unmanned Aerial Systems (UAS), or small satellites. SHM for these systems must be able to handle unexpected situations and adapt specifications quickly during flight testing between closely-timed consecutive missions, not mid-mission, necessitating fast reconfiguration. They must enable more advanced probabilistic reasoning for diagnostics and prognostics while running aboard limited hardware without affecting the certified on-board software. We define and prove correct translations of two real-time projections of Linear Temporal Logic to two types of efficient observer algorithms to continuously assess the status of the system. A synchronous observer yields an instant abstraction of the satisfaction check, whereas an asynchronous observer concretizes this abstraction at a later, a priori known, time. By feeding the system’s real-time status into a statistical reasoning unit, e.g., based on Bayesian networks, we enable advanced health estimation and diagnosis. We experimentally demonstrate our novel framework on real flight data from NASA’s Swift UAS. By on-boarding rt-R2U2 aboard an existing FPGA already built into the standard UAS design and seamlessly intercepting sensor values through read-only observations of the system bus, we avoid system integration problems of software instrumentation or added hardware. The flexibility of our approach with regard to changes in the monitored specification is not due to the reconfigurability offered by FPGAs; it is a benefit of the modularity of our observers and would also be available on non-reconfigurable hardware platforms such as ASICs.},
+	language = {en},
+	booktitle = {Tools and {Algorithms} for the {Construction} and {Analysis} of {Systems}},
+	publisher = {Springer},
+	author = {Reinbacher, Thomas and Rozier, Kristin Yvonne and Schumann, Johann},
+	editor = {Ábrahám, Erika and Havelund, Klaus},
+	year = {2014},
+	keywords = {Bayesian Network, Execution Sequence, Field Programmable Gate Array, Linear Temporal Logic, Time Stamp},
+	pages = {357--372},
+}
+
+@misc{noauthor_r2u2_nodate,
+	title = {{R2U2} {Version} 3.0: {Re}-{Imagining} a {Toolchain} for {Specification}, {Resource} {Estimation}, and {Optimized} {Observer} {Generation} for {Runtime} {Verification} in {Hardware} and {Software}},
+	shorttitle = {{R2U2} {Version} 3.0},
+	url = {https://www.springerprofessional.de/en/r2u2-version-3-0-re-imagining-a-toolchain-for-specification-reso/25803288},
+	abstract = {R2U2 is a modular runtime verification framework capable of monitoring sets of specifications in real time and in resource-constrained environments. Such environments demand that a runtime monitor be fast, easily integratable, accessible to domain …},
+	language = {en},
+	urldate = {2024-09-25},
+	journal = {springerprofessional.de},
+}
+
+@book{ouaknine_formal_2009,
+	address = {Berlin ; New York},
+	series = {Lecture notes in computer science},
+	title = {Formal modeling and analysis of timed systems: 7th international conference, {FORMATS} 2009, {Budapest}, {Hungary}, {September} 14-16, 2009: proceedings},
+	isbn = {9783642043673},
+	shorttitle = {Formal modeling and analysis of timed systems},
+	number = {5813},
+	publisher = {Springer},
+	editor = {Ouaknine, Joël and Vaandrager, Frits},
+	year = {2009},
+	note = {OCLC: ocn436030820},
+	keywords = {Budapest (2009), Budapest {\textless}2009{\textgreater}, Computer simulation, Congresses, Echtzeitsystem, Echtzeitsystem Formale Methode, Formal methods (Computer science), Formale Methode, Hybrides System, Kongress, Machine theory, Model Checking, Temporal automata, Temporale Logik, Temporale Logik Formale Methode, Zeitbehafteter Automat, Zeitbewertetes Petri-Netz, Zeitdiskretes System},
+}
+
+@article{bartocci_first_2019,
+	title = {First international {Competition} on {Runtime} {Verification}: rules, benchmarks, tools, and final results of {CRV} 2014},
+	volume = {21},
+	issn = {1433-2779, 1433-2787},
+	shorttitle = {First international {Competition} on {Runtime} {Verification}},
+	url = {http://link.springer.com/10.1007/s10009-017-0454-5},
+	doi = {10.1007/s10009-017-0454-5},
+	language = {en},
+	number = {1},
+	urldate = {2024-08-27},
+	journal = {International Journal on Software Tools for Technology Transfer},
+	author = {Bartocci, Ezio and Falcone, Yliès and Bonakdarpour, Borzoo and Colombo, Christian and Decker, Normann and Havelund, Klaus and Joshi, Yogi and Klaedtke, Felix and Milewicz, Reed and Reger, Giles and Rosu, Grigore and Signoles, Julien and Thoma, Daniel and Zalinescu, Eugen and Zhang, Yi},
+	month = feb,
+	year = {2019},
+	pages = {31--70},
+}
+
+@article{sanchez_survey_2019,
+	title = {A survey of challenges for runtime verification from advanced application domains (beyond software)},
+	volume = {54},
+	issn = {0925-9856, 1572-8102},
+	url = {http://link.springer.com/10.1007/s10703-019-00337-w},
+	doi = {10.1007/s10703-019-00337-w},
+	abstract = {Abstract 
+            Runtime verification is an area of formal methods that studies the dynamic analysis of execution traces against formal specifications. Typically, the two main activities in runtime verification efforts are the process of creating monitors from specifications, and the algorithms for the evaluation of traces against the generated monitors. Other activities involve the instrumentation of the system to generate the trace and the communication between the system under analysis and the monitor. Most of the applications in runtime verification have been focused on the dynamic analysis of software, even though there are many more potential applications to other computational devices and target systems. In this paper we present a collection of challenges for runtime verification extracted from concrete application domains, focusing on the difficulties that must be overcome to tackle these specific challenges. The computational models that characterize these domains require to devise new techniques beyond the current state of the art in runtime verification.},
+	language = {en},
+	number = {3},
+	urldate = {2024-08-27},
+	journal = {Formal Methods in System Design},
+	author = {Sánchez, César and Schneider, Gerardo and Ahrendt, Wolfgang and Bartocci, Ezio and Bianculli, Domenico and Colombo, Christian and Falcone, Yliès and Francalanza, Adrian and Krstić, Srđan and Lourenço, Joa̋o M. and Nickovic, Dejan and Pace, Gordon J. and Rufino, Jose and Signoles, Julien and Traytel, Dmitriy and Weiss, Alexander},
+	month = nov,
+	year = {2019},
+	pages = {279--335},
+}
+
+@article{falcone_taxonomy_2021,
+	title = {A taxonomy for classifying runtime verification tools},
+	volume = {23},
+	issn = {1433-2787},
+	url = {https://doi.org/10.1007/s10009-021-00609-z},
+	doi = {10.1007/s10009-021-00609-z},
+	abstract = {Over the last 20 years, runtime verification (RV) has grown into a diverse and active field, which has stimulated the development of numerous theoretical frameworks and practical tools. Many of the tools are at first sight very different and challenging to compare. Yet, there are similarities. In this work, we classify RV tools within a high-level taxonomy of concepts. We first present this taxonomy and discuss its different dimensions. Then, we survey the existing RV tools and, where possible with the support of tool authors, classify them according to the taxonomy. While the classification continually evolves, this article presents a snapshot with 60 state-of-the-art RV tools. We believe that this work is an important step in establishing a common terminology in RV and enabling a meaningful comparison of existing RV tools.},
+	language = {en},
+	number = {2},
+	urldate = {2024-08-27},
+	journal = {International Journal on Software Tools for Technology Transfer},
+	author = {Falcone, Yliès and Krstić, Srđan and Reger, Giles and Traytel, Dmitriy},
+	month = apr,
+	year = {2021},
+	keywords = {Classification, Mindmap, Runtime verification, Taxonomy, Tool},
+	pages = {255--284},
+}
+
+@incollection{enea_r2u2_2023,
+	address = {Cham},
+	title = {{R2U2} {Version} 3.0: {Re}-{Imagining} a {Toolchain} for {Specification}, {Resource} {Estimation}, and {Optimized} {Observer} {Generation} for {Runtime} {Verification} in {Hardware} and {Software}},
+	volume = {13966},
+	isbn = {9783031377082 9783031377099},
+	shorttitle = {{R2U2} {Version} 3.0},
+	url = {https://link.springer.com/10.1007/978-3-031-37709-9_23},
+	abstract = {Abstract 
+            R2U2 is a modular runtime verification framework capable of monitoring sets of specifications in real time and in resource-constrained environments. Such environments demand that a runtime monitor be fast, easily integratable, accessible to domain experts, and have predictable resource requirements. Version 3.0 adds new features to R2U2 and its associated suite of tools that meet these needs including a new front-end compiler that accepts a custom specification language, a GUI for resource estimation, and improvements to R2U2’s internal architecture.},
+	language = {en},
+	urldate = {2024-08-19},
+	booktitle = {Computer {Aided} {Verification}},
+	publisher = {Springer Nature Switzerland},
+	author = {Johannsen, Chris and Jones, Phillip and Kempa, Brian and Rozier, Kristin Yvonne and Zhang, Pei},
+	editor = {Enea, Constantin and Lal, Akash},
+	year = {2023},
+	doi = {10.1007/978-3-031-37709-9_23},
+	keywords = {Lido},
+	pages = {483--497},
+}
+
+@misc{noauthor_web_mltl_compiler_nodate,
+	title = {Web\_MLTL\_Compiler - {Github}},
+	url = {https://github.com/zpcore/Web_MLTL_Compiler},
+}
+
+@misc{noauthor_r2u2_nodate-1,
+	title = {{R2U2} – {Home} to the {Realizable} {Responsive} {Unobtrusive} {Unit}},
+	url = {https://r2u2.temporallogic.org/},
+	language = {en-US},
+	urldate = {2024-08-12},
+}
+
+@misc{bartocci_moonlight_2021,
+	title = {{MoonLight}: {A} {Lightweight} {Tool} for {Monitoring} {Spatio}-{Temporal} {Properties}},
+	shorttitle = {{MoonLight}},
+	url = {http://arxiv.org/abs/2104.14333},
+	abstract = {We present MoonLight, a tool for monitoring temporal and spatio-temporal properties of mobile and spatially distributed cyber-physical systems (CPS). In the proposed framework, space is represented as a weighted graph, describing the topological configurations in which the single CPS entities (nodes of the graph) are arranged. Both nodes and edges have attributes modelling physical and logical quantities that can change in time. MoonLight is implemented in Java and supports the monitoring of Spatio-Temporal Reach and Escape Logic (STREL). MoonLight can be used as a standalone command line tool, as a Java API, or via Matlab interface. We provide here some examples using the Matlab interface and we evaluate the tool performance also by comparing with other tools specialized in monitoring only temporal properties.},
+	urldate = {2024-08-09},
+	publisher = {arXiv},
+	author = {Bartocci, Ezio and Bortolussi, Luca and Loreti, Michele and Nenzi, Laura and Silvetti, Simone},
+	month = apr,
+	year = {2021},
+	note = {arXiv:2104.14333 [cs]},
+	keywords = {Computer Science - Logic in Computer Science, Não lido},
+}
+
+@incollection{bonakdarpour_runtime_2014,
+	address = {Cham},
+	title = {Runtime {Observer} {Pairs} and {Bayesian} {Network} {Reasoners} {On}-board {FPGAs}: {Flight}-{Certifiable} {System} {Health} {Management} for {Embedded} {Systems}},
+	volume = {8734},
+	isbn = {9783319111636 9783319111643},
+	shorttitle = {Runtime {Observer} {Pairs} and {Bayesian} {Network} {Reasoners} {On}-board {FPGAs}},
+	url = {http://link.springer.com/10.1007/978-3-319-11164-3_18},
+	urldate = {2024-08-09},
+	booktitle = {Runtime {Verification}},
+	publisher = {Springer International Publishing},
+	author = {Geist, Johannes and Rozier, Kristin Y. and Schumann, Johann},
+	editor = {Bonakdarpour, Borzoo and Smolka, Scott A.},
+	year = {2014},
+	doi = {10.1007/978-3-319-11164-3_18},
+	keywords = {Não lido},
+	pages = {215--230},
+}
+
+@inproceedings{schumann_runtime_2016,
+	address = {Cham},
+	title = {Runtime {Analysis} with {R2U2}: {A} {Tool} {Exhibition} {Report}},
+	isbn = {9783319469829},
+	shorttitle = {Runtime {Analysis} with {R2U2}},
+	doi = {10.1007/978-3-319-46982-9_35},
+	abstract = {We present R2U2 (Realizable, Responsive, Unobtrusive Unit), a hardware-supported tool and framework for the continuous monitoring of safety-critical and embedded cyber-physical systems. With the widespread advent of autonomous systems such as Unmanned Aerial Systems (UAS), satellites, rovers, and cars, real-time, on-board decision making requires unobtrusive monitoring of properties for safety, performance, security, and system health. R2U2 models combine past-time and future-time Metric Temporal Logic, “mission time” Linear Temporal Logic, probabilistic reasoning with Bayesian Networks, and model-based prognostics.},
+	language = {en},
+	booktitle = {Runtime {Verification}},
+	publisher = {Springer International Publishing},
+	author = {Schumann, Johann and Moosbrugger, Patrick and Rozier, Kristin Y.},
+	editor = {Falcone, Yliès and Sánchez, César},
+	year = {2016},
+	keywords = {Não lido},
+	pages = {504--509},
+}
+
+@incollection{bartocci_r2u2_2015,
+	address = {Cham},
+	title = {{R2U2}: {Monitoring} and {Diagnosis} of {Security} {Threats} for {Unmanned} {Aerial} {Systems}},
+	volume = {9333},
+	isbn = {9783319238197 9783319238203},
+	shorttitle = {{R2U2}},
+	url = {http://link.springer.com/10.1007/978-3-319-23820-3_15},
+	urldate = {2024-08-09},
+	booktitle = {Runtime {Verification}},
+	publisher = {Springer International Publishing},
+	author = {Schumann, Johann and Moosbrugger, Patrick and Rozier, Kristin Y.},
+	editor = {Bartocci, Ezio and Majumdar, Rupak},
+	year = {2015},
+	doi = {10.1007/978-3-319-23820-3_15},
+	keywords = {Não lido},
+	pages = {233--249},
+}
+
+@misc{noauthor_runtime_nodate,
+	title = {Runtime {Monitoring} with {R2U2} for
+Aircraft {Systems} with {Neural} {Networks}},
+	url = {https://ntrs.nasa.gov/api/citations/20220002238/downloads/slides-SAE-2022.pdf},
+}
+
+@misc{noauthor_software_nodate,
+	title = {Software and {System} {Health}
+Management with {R2U2}},
+	url = {https://ntrs.nasa.gov/api/citations/20190033108/downloads/20190033108.pdf},
+}
+
+@inproceedings{rozier_r2u2_nodate,
+	title = {{R2U2}: {Tool} {Overview}},
+	shorttitle = {{R2U2}},
+	url = {https://easychair.org/publications/paper/Vncw},
+	doi = {10.29007/5pch},
+	abstract = {R2U2 (Realizable, Responsive, Unobtrusive Unit) is an extensible framework for runtime System Health Management (SHM) of cyber-physical systems. R2U2 can be run in hardware (e.g., FPGAs), or software; can monitor hardware, software, or a combination of the two; and can analyze a range of different types of system requirements during runtime. An R2U2 requirement is specified utilizing a hierarchical combination of building blocks: temporal formula runtime observers (in LTL or MTL), Bayesian networks, sensor filters, and Boolean testers. Importantly, the framework is extensible; it is designed to enable definitions of new building blocks in combination with the core structure. Originally deployed on Unmanned Aerial Systems (UAS), R2U2 is designed to run on a wide range of embedded platforms, from autonomous systems like rovers, satellites, and robots, to human-assistive ground systems and cockpits. 
+            R2U2 is named after the requirements it satisfies; while the exact requirements vary by platform and mission, the ability to formally reason about Realizability, Responsiveness, and Unobtrusiveness is necessary for flight certifiability, safety-critical system assurance, and achievement of technology readiness levels for target systems. Realizability ensures that R2U2 is sufficiently expressive to encapsulate meaningful runtime requirements while maintaining adaptability to run on different platforms, transition be- tween different mission stages, and update quickly between missions. Responsiveness entails continuously monitoring the system under test, real-time reasoning, reporting intermediate status, and as-early-as-possible requirements evaluations. Unobtrusiveness ensures compliance with the crucial properties of the target architecture: functionality, certifiability, timing, tolerances, cost, or other constraints.},
+	urldate = {2024-08-09},
+	author = {Rozier, Kristin Yvonne and Schumann, Johann},
+	keywords = {Lido},
+	pages = {138--118},
+}
+
+@phdthesis{broering_runtime_2023,
+	title = {Runtime monitoring library for the {FreeRTOS}},
+	url = {https://tede.ufsc.br/teses/PEAS0428-D.pdf},
+	language = {eng},
+	school = {Universidade Federal de Santa Catarina},
+	author = {Broering, Elton Ferreira},
+	year = {2023},
+	keywords = {Lido},
+}

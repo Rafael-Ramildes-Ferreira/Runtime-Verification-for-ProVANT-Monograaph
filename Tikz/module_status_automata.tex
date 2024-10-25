@@ -1,0 +1,11 @@
+\begin{tikzpicture}[->, >=Stealth, shorten >=1pt, auto, node distance=3cm, semithick]
+
+  \node[state, initial] (q1) {alive};
+  \node[state] (q2) [right of=q1] {dead};
+
+  \path (q1) %edge [loop above] node {a} (q1)
+            edge [bend left] node {fault} (q2)
+        (q2) %edge [loop above] node {c} (q2)
+            edge [bend left] node {recovered} (q1);
+
+\end{tikzpicture}

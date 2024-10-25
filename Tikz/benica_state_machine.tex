@@ -1,0 +1,75 @@
+\begin{tikzpicture}[->, >=Stealth, shorten >=1pt, auto, node distance=3cm, semithick]
+
+    % \node[state, initial] (q1) {Unconfigured};
+    % \node[state] (init) [below of=q1] {Initializing};
+    % \node[state] (pre) [below of=init] {Pre-flight};
+    % \node[state] (auto) [below of=pre, yshift=-.5cm] {Autonomous};
+    % \node[state] (standby) [left of=auto] {Standby};
+    % \node[state] (man) [right of=auto] {Manual};
+    % \node[state] (shut) [below of=auto, yshift=-.5cm] {Shutdown};
+    % \node[state] (diag) [right of=pre, xshift=2cm] {Diagnostics};
+    % \node[state] (recov) [left of=init, xshift=-3cm] {Recovery};
+
+    \node[state, initial, rectangle, rounded corners] (q1) {Unconfigured};
+    \node[state, rectangle, rounded corners] (init) [below of=q1] {Initializing};
+    \node[state, rectangle, rounded corners] (pre) [below of=init] {Pre-flight};
+    \node[state, rectangle, rounded corners] (auto) [below of=pre, yshift=-.5cm] {Autonomous};
+    \node[state, rectangle, rounded corners] (standby) [left of=auto] {Standby};
+    \node[state, rectangle, rounded corners] (man) [right of=auto] {Manual};
+    \node[state, rectangle, rounded corners] (shut) [below of=auto, yshift=-.5cm] {Shutdown};
+    \node[state, rectangle, rounded corners] (diag) [right of=pre, xshift=2cm] {Diagnostics};
+    \node[state, rectangle, rounded corners] (recov) [left of=init, xshift=-3cm] {Recovery};
+
+  \path (q1) %edge [loop above] node {a} (q1)
+            edge node {} (init)
+        (init) %edge [loop above] node {c} (q2)
+            edge node {} (pre)
+        (pre)
+            edge [bend right=10] node {} (standby)
+        (pre)
+            edge node {} (auto)
+        (pre)
+            edge [bend left=10] node {} (man)
+        (standby)
+            edge [bend left] node {} (auto)
+        (auto)
+            edge [bend left] node {} (standby)
+        (man)
+            edge [bend left] node {} (auto)
+        (auto)
+            edge [bend left] node {} (man)
+        (standby)
+            edge [bend left=50] node {} (man)
+        (man)
+            edge [bend left=50] node {} (standby)
+        (auto)
+            edge node {} (shut)
+        (standby)
+            edge [bend right=10] node {} (shut)
+        (man)
+            edge [bend left=10] node {} (shut);
+
+        \path (pre)
+            edge [bend left] node {} (diag)
+        (diag)
+            edge [bend left] node {} (pre);
+
+        \path (recov)
+            edge node [above, yshift=.25cm]{Not in flight} (pre)
+        (recov)
+            edge node [left]{In flight} (standby);
+    
+    % \node[draw=black, fill=red, circle, inner sep=0.5mm] at ([xshift=0.88cm, yshift=0.55cm]init) {\textcolor{black}{\textbf{x}}};
+    % \node[draw=black, fill=red, circle, inner sep=0.5mm] at ([xshift=0.8cm, yshift=0.5cm]pre) {\textcolor{black}{\textbf{x}}};
+    % \node[draw=black, fill=red, circle, inner sep=0.5mm] at ([xshift=1.04797cm, yshift=0.757cm]auto) {\textcolor{black}{\textbf{x}}};
+    % \node[draw=black, fill=red, circle, inner sep=0.5mm] at ([xshift=0.72cm, yshift=0.45cm]man) {\textcolor{black}{\textbf{x}}};
+    % \node[draw=black, fill=red, circle, inner sep=0.5mm] at ([xshift=0.88cm, yshift=0.55cm]shut) {\textcolor{black}{\textbf{x}}};
+    % \node[draw=black, fill=red, circle, inner sep=0.5mm] at ([xshift=0.88cm, yshift=0.55cm]recov) {\textcolor{red}{\textbf{x}}};
+
+    \node[draw=black, fill=red, circle, inner sep=0.5mm] at ([xshift=0.88cm, yshift=0.55cm]init) {\textcolor{black}{\textbf{x}}};
+    \node[draw=black, fill=red, circle, inner sep=0.5mm] at ([xshift=0.8cm, yshift=0.55cm]pre) {\textcolor{black}{\textbf{x}}};
+    \node[draw=black, fill=red, circle, inner sep=0.5mm] at ([xshift=1.04797cm, yshift=0.55cm]auto) {\textcolor{black}{\textbf{x}}};
+    \node[draw=black, fill=red, circle, inner sep=0.5mm] at ([xshift=0.72cm, yshift=0.55cm]man) {\textcolor{black}{\textbf{x}}};
+    \node[draw=black, fill=red, circle, inner sep=0.5mm] at ([xshift=0.88cm, yshift=0.55cm]shut) {\textcolor{black}{\textbf{x}}};
+    \node[draw=black, fill=red, circle, inner sep=0.5mm] at ([xshift=0.88cm, yshift=0.55cm]recov) {\textcolor{red}{\textbf{x}}};
+\end{tikzpicture}
