@@ -16,8 +16,8 @@ Compilação:
 ________________________________________
 Sistema Operacional - Ubuntu 18.04.3
 
-Distribuição Tex - TexLive 2019 (https://www.tug.org/texlive/acquire-netinstall.html)
-Coompilador - texstudio 2.12.16 (Install Using Ubuntu PPA https://www.ubuntupit.com/how-to-install-texstudio-a-latex-editor-in-ubuntu-linux/)
+Distribuição Tex - [TexLive 2019](https://www.tug.org/texlive/acquire-netinstall.html)
+Coompilador - [texstudio 2.12.16](Install Using Ubuntu PPA https://www.ubuntupit.com/how-to-install-texstudio-a-latex-editor-in-ubuntu-linux/)
 Versão do pacote biber - biber-linux-X86_64 2.13
 
 Configurações do texstudio
