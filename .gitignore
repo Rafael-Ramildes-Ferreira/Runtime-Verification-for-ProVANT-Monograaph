@@ -15,3 +15,6 @@ main.aux
 main.ind
 main.bbl
 main.lof
+*.gz
+.vscode
+*synctex*
